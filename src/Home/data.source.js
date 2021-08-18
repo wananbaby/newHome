@@ -14,7 +14,7 @@ export const Nav00DataSource = {
         className: 'header0-item',
         children: {
           href: '#',
-          children: [{ children: '导航一', name: 'text' }],
+          children: [{ children: 'HOME', name: 'text' }],
         },
         subItem: [
           {
@@ -32,12 +32,12 @@ export const Nav00DataSource = {
                 {
                   name: 'title',
                   className: 'item-title',
-                  children: 'Ant Design',
+                  children: '个人主页',
                 },
                 {
                   name: 'content',
                   className: 'item-content',
-                  children: '企业级 UI 设计体系',
+                  children: '单口喜剧 & 我',
                 },
               ],
             },
@@ -57,12 +57,12 @@ export const Nav00DataSource = {
                 {
                   name: 'title',
                   className: 'item-title',
-                  children: 'Ant Design',
+                  children: 'My Power',
                 },
                 {
                   name: 'content',
                   className: 'item-content',
-                  children: '企业级 UI 设计体系',
+                  children: 'Blog and My Share',
                 },
               ],
             },
@@ -74,7 +74,7 @@ export const Nav00DataSource = {
         className: 'header0-item',
         children: {
           href: '#',
-          children: [{ children: '导航二', name: 'text' }],
+          children: [{ children: '不务正业', name: 'text' }],
         },
       },
       {
@@ -82,7 +82,7 @@ export const Nav00DataSource = {
         className: 'header0-item',
         children: {
           href: '#',
-          children: [{ children: '导航三', name: 'text' }],
+          children: [{ children: '互联网记忆', name: 'text' }],
         },
       },
       {
@@ -90,7 +90,7 @@ export const Nav00DataSource = {
         className: 'header0-item',
         children: {
           href: '#',
-          children: [{ children: '导航四', name: 'text' }],
+          children: [{ children: '其他', name: 'text' }],
         },
       },
     ],
@@ -113,7 +113,7 @@ export const Banner10DataSource = {
         },
         content: {
           className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
+          children: '山川异域，风月同天',
         },
         button: { className: 'banner1-button', children: 'Learn More' },
       },
@@ -129,7 +129,7 @@ export const Banner10DataSource = {
         },
         content: {
           className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
+          children: 'For the girl I love',
         },
         button: { className: 'banner1-button', children: 'Learn More' },
       },
@@ -145,7 +145,7 @@ export const Banner10DataSource = {
         },
         content: {
           className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
+          children: '谈什么恋爱，游戏不香吗',
         },
         button: { className: 'banner1-button', children: 'Learn More' },
       },
@@ -159,11 +159,11 @@ export const Content50DataSource = {
   titleWrapper: {
     className: 'title-wrapper',
     children: [
-      { name: 'title', children: '客户案例', className: 'title-h1' },
+      { name: 'title', children: '快速链接', className: 'title-h1' },
       {
         name: 'content',
         className: 'title-content',
-        children: '在这里用一段话介绍服务的案例情况',
+        children: '这里是主要产品的访问链接',
       },
     ],
   },
@@ -182,7 +182,7 @@ export const Content50DataSource = {
             children:
               'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '个人主页' },
         },
       },
       {
@@ -196,7 +196,7 @@ export const Content50DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: 'Blog' },
         },
       },
       {
@@ -210,7 +210,7 @@ export const Content50DataSource = {
             children:
               'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: 'React Game' },
         },
       },
       {
@@ -224,7 +224,7 @@ export const Content50DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '天气' },
         },
       },
       {
@@ -238,7 +238,7 @@ export const Content50DataSource = {
             children:
               'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '互联网记忆' },
         },
       },
       {
@@ -252,7 +252,7 @@ export const Content50DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: 'vip视频' },
         },
       },
       {
@@ -266,7 +266,7 @@ export const Content50DataSource = {
             children:
               'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '随笔' },
         },
       },
       {
@@ -280,7 +280,7 @@ export const Content50DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '职位分享' },
         },
       },
     ],
@@ -307,10 +307,10 @@ export const Teams00DataSource = {
             {
               name: 'content',
               children:
-                'SEE = Seeking Experience & Engineering，意为探索用户体验与工程实践，由蚂蚁金服集团每年举办 1-2 次，包括专业分享、产品展台、Workshop 等内容。',
+                '单口喜剧人，Stand up comedy, 张大嘴',
               className: 'teams0-content',
             },
-            { name: 'title', children: '韩勇', className: 'teams0-h1' },
+            { name: 'title', children: '佚名', className: 'teams0-h1' },
             {
               name: 'content2',
               children: '公司+职位 信息暂缺',
@@ -334,10 +334,10 @@ export const Teams00DataSource = {
             {
               name: 'content',
               children:
-                'SEE = Seeking Experience & Engineering，意为探索用户体验与工程实践，由蚂蚁金服集团每年举办 1-2 次，包括专业分享、产品展台、Workshop 等内容。',
+                '佚名',
               className: 'teams0-content',
             },
-            { name: 'title', children: '叶秀英', className: 'teams0-h1' },
+            { name: 'title', children: '佚名', className: 'teams0-h1' },
             {
               name: 'content2',
               children: '公司+职位 信息暂缺',
@@ -363,7 +363,7 @@ export const Footer20DataSource = {
       },
       {
         name: 'group',
-        children: '蚂蚁金服体验科技大会',
+        children: '濮阳宏图石油机械贸易有限公司',
         className: 'copyright-group',
       },
       {
@@ -374,7 +374,9 @@ export const Footer20DataSource = {
       },
       {
         name: 'copyright',
-        children: 'Copyright © 蚂蚁金融服务集团',
+        children: (
+            <a href='https://beian.miit.gov.cn/'>豫ICP备2021017900号</a>
+        ),
         className: 'copyright-text',
       },
     ],
