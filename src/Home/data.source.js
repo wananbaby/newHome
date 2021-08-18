@@ -21,6 +21,7 @@ export const Nav00DataSource = {
             name: 'sub0',
             className: 'item-sub',
             children: {
+              href: 'https://www.sczlzys.com:4000',
               className: 'item-sub-item',
               children: [
                 {
@@ -46,6 +47,7 @@ export const Nav00DataSource = {
             name: 'sub1',
             className: 'item-sub',
             children: {
+              href: 'https://www.sczlzys.com:3000',
               className: 'item-sub-item',
               children: [
                 {
