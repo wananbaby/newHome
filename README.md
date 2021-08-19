@@ -10,3 +10,7 @@ react小游戏
 公众号
 互联网记忆
 
+安装gh-pages
+npm install -D gh-pages
+
+npm run deploy
